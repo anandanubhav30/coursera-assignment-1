@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 23px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.block-heading-1, .block-heading-2, .block-heading-3 {
+    font-size: 1.25em;
+}
+
+h1.main-heading {
+    font-size: 1.5em;
+}
+
+
+
+h1.main-heading {
+    color: red;
+    text-align: center;
+}
+
+.column-container {
+    float: left;
+    align-items: center;
+    position:relative;
+    margin: 0%;
+
+}
+
+.main-block-1, .main-block-2, .main-block-3 {
+   
+    position: relative;
+    width: 30%;
+    height: fit-content;
+
+    border: black solid 5px;
+    padding: 1.64%;
+    margin: 1.65%;
+
+    float: left;
+
+    background: rgb(175, 172, 172);
+    text-align: justify;
+}
+
+.block-heading-1, .block-heading-2, .block-heading-3 {
+    
+    position: absolute;
+    top: 0px;
+    top: -5px;
+    right: 0%;
+    right: -5px;
+
+    height: auto;
+    width: fit-content;
+    padding: 5px 50px;
+
+
+    border: black solid 5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.block-heading-1 {
+    background-color: rgb(228, 180, 123);
+}
+
+.block-heading-2 {
+    background-color: indigo;
+    color: ivory;
+}
+
+.block-heading-3 {
+    background-color:maroon;
+    color: wheat;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .main-block-1, .main-block-2, .main-block-3 {
+        width: 30%;    
+    }   
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .main-block-1, .main-block-2 {
+        width: 46.7%;
+
+    }
+
+    .main-block-3 {
+        width: 96.7%;
+    }    
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .main-block-1, .main-block-2, .main-block-3 {
+        width: 95.7%;
+    }
+    
+}
+
+
